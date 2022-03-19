@@ -3,7 +3,20 @@
 function updateSubtotal(product) {
   console.log('Calculating subtotal, yey!');
 
-  //... your code goes here
+  function updateSubtotal(product) {
+    const price = product.querySelector('.price span');
+    const quantity = product.querySelector ('.quantity span');
+
+  /*const list = document.querySelector('#quantity-list');
+    const printQuantities = () => {
+      list.innerHTML = ""; // Clean the list
+      quantities.forEach(quantity => {
+        const newLi = document.createElement('li');
+        newLi.innerHTML = `Name: ${student.name} - Age: ${student.age} <button class="delete-button">Delete</button>`;
+        list.appendChild(newLi); // .preppend()
+        */
+
+
 }
 
 function calculateAll() {
